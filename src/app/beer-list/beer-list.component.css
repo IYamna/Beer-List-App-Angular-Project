@@ -1,0 +1,80 @@
+.card {
+    width: 18rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-img-top {
+    height: 10rem;
+    object-fit: contain;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .beer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.beer-list, .beer-item {
+  display: inline-block;
+}
+
+  .beer-card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .beer-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .beer-image {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .beer-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .beer-description {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .beer-tagline {
+    font-size: 16px;
+    margin: 10px;
+    font-style: italic;
+  }
+  
+  .beer-abv {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .beer-ibu {
+    font-size: 16px;
+    margin: 10px;
+  }
+      
+  

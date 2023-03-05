@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { BeerListComponent } from './beer-list/beer-list.component';
+
 
 @Component({
   selector: 'app-root',
